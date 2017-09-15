@@ -316,7 +316,7 @@ label continue_2:
     "I'm not exactly sure what just happened today."
     
     #sound of footsteps
-    show latimer lab stern 1 at left with moveinleft(1.0)
+    show latimer lab stern 1 at left with moveinleft
     "I look up and I see Latimer."
     pc "Ah, I-"
     "She thrusts a piece of paper into my hand and runs off again before I can say another word."

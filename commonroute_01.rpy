@@ -272,7 +272,7 @@ label cr_002:
     pc "You don't know where we are either, do you."
     "Not that I'm surprised."
     "I begin to walk again."
-    show evans winter worried 1 at right with moveinright(1.0)
+    show evans winter worried 1 at right with moveinright
     #    xalign 2.0
     #    linear 1.0 xalign 1.0
     "Unexpectedly, something is in my way."
