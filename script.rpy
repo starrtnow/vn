@@ -8,10 +8,10 @@ init:
             else: return Character(name, kind=talk)
         
         def MoveInRight(time):
-            return MoveTransition(time, enter_factory=MoveIn((1.0,1.0,0.0,1.0)))
+            return moveinright
         
         def MoveInLeft(time):
-            return MoveTransition(time, enter_factory=MoveIn((0.0,1.0,1.0,1.0)))
+            return moveinleft
             
         # Special dict object with attribute getters and setters
         class AttrDict(dict):
