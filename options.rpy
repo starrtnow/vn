@@ -293,8 +293,8 @@ init -1 python hide:
     
   #  config.nvl_paged_rollback = True
    # style.nvl_vbox.box_spacing = 0
-  #  style.nvl_window.xpadding = 60
-   # style.nvl_window.ypadding = 70
+    #style.nvl_window.xpadding = 60
+    #style.nvl_window.ypadding = 70
    # config.adv_nvl_transition = dissolve
    # config.nvl_adv_transition = dissolve
     

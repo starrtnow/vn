@@ -143,12 +143,12 @@ label er_006:
     "It's Evans."
     "Evans."
     "...Evans?"
-    pc "[Hello?]"
+    p "\[Hello?\]"
     "I answer reluctantly."
-    e "[Ah, Sempai?]"
+    e "\[Ah, Sempai?\]"
     "Her voice is somewhat difficult to make out, but it's there."
-    e "[I was just wondering...]"
-    e "[Would you like to come over to my house to do homework?]"
+    e "\[I was just wondering...\]"
+    e "\[Would you like to come over to my house to do homework?\]"
     "I'm not sure what to say."
     "Going over to her house to do homework would be good, but..."
     "It's so freaking hot outside..."
@@ -159,8 +159,8 @@ label er_006:
             jump er_008
 
 label er_007: #Go
-    pc "[Alright. I'll be there in a few minutes.]"
-    e "[Ok, I'll be waiting!]"
+    pc "\[Alright. I'll be there in a few minutes.\]"
+    e "\[Ok, I'll be waiting!\]"
     "CLICK" #CLICK cellphone button!
     "..."
     "I reluctantly get up and get my school things together."
@@ -180,12 +180,12 @@ label er_007: #Go
     jump er_009
 
 label er_008: #Don't go
-    pc "[Uguu...not today....]"
-    e "[Oh, alright...]"
+    pc "\[Uguu...not today....\]"
+    e "\[Oh, alright...\]"
     "She sounded disappointed."
-    e "[Maybe tomorrow then?]"
-    pc "[Yeah, maybe...]"
-    e "[Okay! See you tomorrow!]"
+    e "\[Maybe tomorrow then?\]"
+    pc "\[Yeah, maybe...\]"
+    e "\[Okay! See you tomorrow!\]"
     "CLICK" #CLICK cellphone click
     "..."
     "Maybe that wasn't such a good idea..."

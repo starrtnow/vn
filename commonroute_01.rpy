@@ -16,8 +16,9 @@ label cr_001:
         crflag.experiment_appointment = False
         crflag.chosen_route = None
 
-        from pprint import pprint
-        pprint(persistent.seen_scenes)
+        #from pprint import pprint
+        #pprint(persistent.seen_scenes)
+        print(persistent.seen_scenes)
 
     if SkipMenu('cr_001'):
         $ dname = 'Dwinelle'
@@ -271,7 +272,7 @@ label cr_002:
     pc "You don't know where we are either, do you."
     "Not that I'm surprised."
     "I begin to walk again."
-    show evans winter worried 1 at right with MoveInRight(1.0)
+    show evans winter worried 1 at right with moveinright(1.0)
     #    xalign 2.0
     #    linear 1.0 xalign 1.0
     "Unexpectedly, something is in my way."
